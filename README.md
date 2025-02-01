@@ -1,6 +1,8 @@
 # Arioch3d.github.io
 Create and Deploy A Resume with GitHub Pages
 Due Date: Friday 2/21/2025 at 11:55pm
+
+
 Instructions
 In this assignment you will be updating an existing resume template built with HTML and CSS. Please read the directions carefully.
 
