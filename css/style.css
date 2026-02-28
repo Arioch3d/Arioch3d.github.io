@@ -68,3 +68,22 @@
         .date{
             text-align: right;
         }
+        
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.repo-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.repo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
