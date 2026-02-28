@@ -88,3 +88,30 @@
   transform: translateY(-5px);
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
+.repo-card a, 
+.repo-card a:visited {
+    color: #007bff !important;
+    text-decoration: none;     
+}
+
+.repo-card a:hover {
+    text-decoration: underline; 
+    transition: color 0.2s ease-in-out;
+    font-style: italic;
+    color: #0f1010;           
+}
+a {
+    color: #007bff !important; 
+    text-decoration: none;  
+    font-weight: bold;    
+}
+a:visited {
+    color: #007bff !important; 
+    text-decoration: none;      
+}
+a:hover {
+    text-decoration: underline; 
+    transition: color 0.2s ease-in-out;
+    font-style: italic;
+    color: #0f1010; 
+}
