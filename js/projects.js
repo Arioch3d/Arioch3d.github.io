@@ -11,7 +11,6 @@ async function getGitHubProjects(username) {
       name: repo.name,
       description: repo.description,
       url: repo.html_url,
-      stars: repo.stargazers_count,
       language: repo.language,
     } : null).filter(repo => repo !== null);
   } catch (error) {
@@ -37,7 +36,7 @@ async function populateProjects() {
     card.innerHTML = `
       <h3>${repo.name}</h3>
       <p>${repo.description || 'No description provided.'}</p>
-      <p>⭐ ${repo.stars} ${repo.language ? '• ' + repo.language : ''}</p>
+      <p>${repo.language ? '• ' + repo.language : ''}</p>
       <a href="${repo.url}" target="_blank" rel="noopener">View on GitHub</a>
     `;
     container.appendChild(card);
